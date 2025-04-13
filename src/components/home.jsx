@@ -1,5 +1,4 @@
 import React from "react";
-import grid from "D:/my-portfolio/src/assets/grid_pattern.svg";
 import profileImg from "../assets/profile_pic.svg";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
