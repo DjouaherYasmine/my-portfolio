@@ -1,3 +1,4 @@
+import AboutMe from "./components/aboutme";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 import React from "react";
@@ -18,8 +19,7 @@ function App() {
     <div className="relative">
       <Navbar />
       <Home />
-      <Section id="home">Home</Section>
-      <Section id="about">About</Section>
+      <AboutMe />
       <Section id="projects">Projects</Section>
       <Section id="contact">Contact</Section>
     </div>
