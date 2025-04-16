@@ -7,11 +7,42 @@ import { motion } from "framer-motion";
 import cselogo from "../assets/cselogo.svg";
 import caalogo from "../assets/caalogo.svg";
 import datahacklogo from "../assets/datahacklogo.svg";
+import ciscoai from "../assets/cisco_AI.svg";
+import ibmai from "../assets/ibm_AI.svg";
+import ibmreact from "../assets/ibm_react.svg";
+import ciscobadge from "../assets/cisco_AI_badge.png";
+import ibmaibadge from "../assets/ibm_AI_badge.png";
+import reactbadge from "../assets/ibm_react_badge.png";
 
 
 
 
 export default function AboutMe() {
+
+    const certificates = [
+        {
+          image: ciscoai,
+          badge:ciscobadge,
+          title: 'Yoom - Video Conferencing App',
+          description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+          link: '#',
+        },
+        {
+            image: ibmai,
+            badge: ibmaibadge ,
+            title: 'Yoom - Video Conferencing App',
+            description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+            link: '#',
+          },
+          {
+            image: ibmreact,
+            badge: reactbadge,
+            title: 'Yoom - Video Conferencing App',
+            description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+            link: '#',
+          },
+      ];
+      const isOdd = certificates.length % 2 !== 0;
 
     const timelineData = [
         {
@@ -129,6 +160,50 @@ export default function AboutMe() {
           </motion.div>
         ))}
       </div>
+      <BlurFade>
+          <h2 className="text-4xl md:text-4xl font-bold">
+            <AuroraText>Certificates</AuroraText>
+          </h2>
+        </BlurFade>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {certificates.map((item, index) => {
+  const isOdd = certificates.length % 2 !== 0;
+  const isLast = index === certificates.length - 1;
+
+  return (
+    <div
+      key={index}
+      className={`bg-[#1A1A2E] rounded-2xl p-6 max-w-lg w-full shadow-lg flex flex-col
+      ${isOdd && isLast ? 'md:col-span-2 md:mx-auto' : ''}`}
+    >
+      <img
+        src={item.image}
+        alt="Certificate"
+        className="rounded-lg object-contain mb-6"
+      />
+
+      {/* Title with badge */}
+      <div className="flex items-start w-full gap-3 mb-4">
+  
+
+  {/* Text content on the right */}
+  <div>
+    <h3 className="text-white text-xl font-semibold mb-1 text-start">
+      {item.title}
+    </h3>
+    <p className="text-gray-300 text-sm text-start">
+      {item.description}
+    </p>
+  </div>
+  <img src={item.badge} alt="Badge" className="w-20 h-20 mt-1" />
+</div>
+
+    </div>
+  );
+})}
+
+      </div>
+        
       </div>
     </section>
   );

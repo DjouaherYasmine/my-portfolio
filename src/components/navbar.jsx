@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 const sections = ["Home", "About", "Projects", "Contact"];
 
 export default function Navbar() {
-  const [active, setActive] = useState("About");
+  const [active, setActive] = useState("Home");
   const dotRef = useRef();
 
   useEffect(() => {
