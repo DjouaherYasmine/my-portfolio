@@ -1,6 +1,7 @@
 import AboutMe from "./components/aboutme";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
+import Projects from "./components/projects";
 import React from "react";
 
 function Section({ id, children }) {
@@ -20,7 +21,7 @@ function App() {
       <Navbar />
       <Home />
       <AboutMe />
-      <Section id="projects">Projects</Section>
+      <Projects />
       <Section id="contact">Contact</Section>
     </div>
   );

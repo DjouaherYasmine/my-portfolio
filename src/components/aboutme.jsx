@@ -13,33 +13,74 @@ import ibmreact from "../assets/ibm_react.svg";
 import ciscobadge from "../assets/cisco_AI_badge.png";
 import ibmaibadge from "../assets/ibm_AI_badge.png";
 import reactbadge from "../assets/ibm_react_badge.png";
+import SkillsWall from "./skills";
+import beaver from "../assets/beaver.svg";
+import foodieland from "../assets/foodieland.svg";
+import foodninja from "../assets/foodninja.svg";
+import dpi from "../assets/dpi.svg";
+import { Icon } from '@iconify/react';
+
 
 
 
 
 export default function AboutMe() {
+    const projects = [
+        {
+          title: '3D Solar System Planets to Explore',
+          description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+          image: beaver, // Update with the correct relative path to your image
+          techStack: ['logos:react', 'logos:tailwindcss-icon', 'logos:typescript-icon', 'logos:threejs'],
+          liveLink: '#'
+        },
+        // Add 3 more project objects to fill the 2x2 grid
+        {
+          title: 'Another Cool Project',
+          description: 'Brief description of another amazing project.',
+          image: foodieland,
+          techStack: ['logos:flutter', 'logos:nodejs-icon'],
+          liveLink: '#'
+        },
+        {
+          title: 'Beaver App',
+          description: 'Une application mobile de services de maintenance à domicile eco-respectueuse.',
+          image: foodninja,
+          techStack: ['logos:dart', 'logos:firebase'],
+          liveLink: '#'
+        },
+        {
+          title: 'Creative Portfolio',
+          description: 'A portfolio showcasing web design and frontend projects.',
+          image: dpi,
+          techStack: ['logos:html-5', 'logos:css-3', 'logos:javascript'],
+          liveLink: '#'
+        }
+      ];
 
     const certificates = [
         {
+            badgelink:'https://www.credly.com/badges/5077c127-63eb-4d70-b791-0c17a2cfb16b/public_url',
           image: ciscoai,
           badge:ciscobadge,
           title: 'Yoom - Video Conferencing App',
           description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-          link: '#',
+          link: 'https://drive.google.com/file/d/12RaMMZPah6D-G9MbjDEnO5oCCnA6EebG/view?usp=sharing',
         },
         {
+            badgelink: 'https://www.credly.com/badges/19a2966e-87c0-4a49-9a62-6d8b80dee6e2/public_url',
             image: ibmai,
             badge: ibmaibadge ,
             title: 'Yoom - Video Conferencing App',
             description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-            link: '#',
+            link: 'https://drive.google.com/file/d/1Ef0dNFvtms8qtqqyIyMJPGGZM1NT1DW3/view?usp=sharing',
           },
           {
+            badgelink: 'https://www.credly.com/badges/ae14460e-b654-455e-bd2d-46932acf651e/public_url',
             image: ibmreact,
             badge: reactbadge,
             title: 'Yoom - Video Conferencing App',
             description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-            link: '#',
+            link: 'https://courses.edx.org/certificates/a5cb5e2aedb441dea458957044672e96',
           },
       ];
       const isOdd = certificates.length % 2 !== 0;
@@ -165,17 +206,21 @@ export default function AboutMe() {
             <AuroraText>Certificates</AuroraText>
           </h2>
         </BlurFade>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
         {certificates.map((item, index) => {
   const isOdd = certificates.length % 2 !== 0;
   const isLast = index === certificates.length - 1;
 
   return (
-    <div
+    <a
       key={index}
-      className={`bg-[#1A1A2E] rounded-2xl p-6 max-w-lg w-full shadow-lg flex flex-col
-      ${isOdd && isLast ? 'md:col-span-2 md:mx-auto' : ''}`}
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`bg-[#1A1A2E] rounded-2xl p-6 max-w-lg w-full border border-white/10 shadow-lg flex flex-col transform transition-transform duration-300 hover:scale-105
+        ${isOdd && isLast ? 'md:col-span-2 md:mx-auto' : ''}`}
     >
+    
       <img
         src={item.image}
         alt="Certificate"
@@ -195,14 +240,22 @@ export default function AboutMe() {
       {item.description}
     </p>
   </div>
-  <img src={item.badge} alt="Badge" className="w-20 h-20 mt-1" />
+  <img src={item.badge} alt="Badge" className="w-20 h-20 mt-1" onClick={() => window.open(item.badgelink, '_blank')} />
 </div>
 
-    </div>
+    
+    </a>
   );
 })}
 
       </div>
+      <BlurFade>
+          <h2 className="text-4xl md:text-4xl font-bold">
+            <AuroraText>Skills</AuroraText>
+          </h2>
+        </BlurFade>
+      <SkillsWall />
+      
         
       </div>
     </section>
