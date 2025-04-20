@@ -1,5 +1,7 @@
 import AboutMe from "./components/aboutme";
+import ContactForm from "./components/contactme";
 import Home from "./components/home";
+import Footer from "./components/myfooter";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
 import React from "react";
@@ -22,7 +24,8 @@ function App() {
       <Home />
       <AboutMe />
       <Projects />
-      <Section id="contact">Contact</Section>
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
