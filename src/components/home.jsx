@@ -41,7 +41,7 @@ export default function Home() {
         <div className="md:w-1/2 flex justify-center mt-10 md:justify-end mb-10 md:mb-0">
         <BlurFade>
         <img
-            src={profileImg}
+            src="https://res.cloudinary.com/dzov9om6d/image/upload/v1746788324/profile_pic_zlqr51.svg"
             alt="Profile"
             className="w-80 h-80 md:w-100 md:h-100 rounded-full object-cover"
           />
