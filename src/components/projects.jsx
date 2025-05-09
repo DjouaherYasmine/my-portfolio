@@ -1,8 +1,8 @@
 import react from 'react';
-import beaver from "../assets/beaver.svg";
-import foodieland from "../assets/foodieland.svg";
-import foodninja from "../assets/foodninja.svg";
-import dpi from "../assets/dpi.svg";
+import beaver from "/beaver.svg";
+import foodieland from "/foodieland.svg";
+import foodninja from "/foodninja.svg";
+import dpi from "/dpi.svg";
 import { Icon } from '@iconify/react';
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { AuroraText } from "@/components/magicui/aurora-text";
@@ -40,7 +40,7 @@ export default function projects() {
   'logos:tailwindcss-icon',
   'logos:django-icon',
 'logos:python','logos:mysql'],
-              liveLink: 'https://github.com/DjouaherYasmine/dpi_project'
+              liveLink: 'https://github.com/SarahSidAhmed/IGL_PROJECT.git'
             }
           ];
 

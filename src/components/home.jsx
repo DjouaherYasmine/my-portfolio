@@ -1,9 +1,9 @@
 import React from "react";
-import profileImg from "../assets/profile_pic.svg";
+import profileImg from "/profile_pic.svg";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
 import { AuroraText } from "@/components/magicui/aurora-text";
-import arrow from "../assets/arrow1.svg";
+import arrow from "/arrow1.svg";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white">
           <BlurFade>
-          Shaping Ideas<AuroraText>into  Impactful Ideas</AuroraText>
+          Shaping Ideas <AuroraText>into  Impactful Ideas</AuroraText>
           </BlurFade>
           </h1>
           <BlurFade>
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         {/* Right Side (Image) */}
-        <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0">
+        <div className="md:w-1/2 flex justify-center mt-10 md:justify-end mb-10 md:mb-0">
         <BlurFade>
         <img
             src={profileImg}
