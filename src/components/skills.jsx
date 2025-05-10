@@ -7,12 +7,19 @@ const skills = [
   { name: 'Angular', icon: 'logos:angular-icon' },
   { name: 'React', icon: 'logos:react' },
   { name: 'JavaScript', icon: 'logos:javascript' },
+  { name: 'TypeScript', icon: 'logos:typescript-icon' },
   { name: 'HTML5', icon: 'logos:html-5' },
   { name: 'CSS3', icon: 'logos:css-3' },
+  { name: 'Tailwind CSS', icon: 'logos:tailwindcss-icon' },
   { name: 'Node.js', icon: 'logos:nodejs-icon' },
+  { name: 'Express.js', icon: 'simple-icons:express' },
+  { name: 'Python', icon: 'logos:python' },
+
+  { name: 'Figma', icon: 'logos:figma' },
   { name: 'Git', icon: 'logos:git-icon' },
   { name: 'GitHub', icon: 'mdi:github' },
 ];
+
 
 const SkillsWall = () => {
   const gridSize = 5; // number of columns

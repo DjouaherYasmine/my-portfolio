@@ -12,7 +12,7 @@ export default function projects() {
             {
               title: 'Beaver – Artisan Services Mobile App',
               description: 'Beaver is a Flutter-based mobile app that connects customers with local artisans for home services. I worked on the frontend, integrated it with the backend, and implemented geolocation features to enable location-based service filtering. The app streamlines service requests, enhancing accessibility and convenience for users.',
-              image: beaver, 
+              image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788292/beaver_yby2rg.svg", 
               techStack: ['logos:flutter', 'logos:mysql', 'logos:nodejs-icon', 'simple-icons:express'],
               liveLink: 'https://drive.google.com/drive/folders/1dLywkEk2zY_8QEUjjbUzPmS_6m3CZrzM?usp=sharing'
             },
@@ -20,21 +20,21 @@ export default function projects() {
             {
               title: 'Foodie Land – Recipe Website',
               description: 'Foodie Land is a frontend recipe website built with React, inspired by a Flowbase UI design. It features a responsive and visually appealing layout to showcase curated recipes. This project highlights my skills in component-based architecture, CSS styling, and UI integration using modern React practices.',
-              image: foodieland,
+              image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788302/foodieland_ltziuo.svg",
               techStack: ['logos:react', 'logos:javascript'],
               liveLink: 'https://foodielandproject-git-master-djouaher-yasmines-projects.vercel.app'
             },
             {
               title: 'Food Delivery App – Frontend mobile app',
               description: 'A mobile app frontend for food delivery developed with Flutter, based on a UI from TruePixel. The project focuses on clean UI implementation, user-friendly navigation, and a polished mobile-first design, showcasing my ability to translate high-fidelity designs into functional Flutter interfaces.',
-              image: foodninja,
+              image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788299/foodninja_zqdu6d.svg",
               techStack: ['logos:flutter', 'logos:dart'],
               liveLink: 'https://github.com/DjouaherYasmine/food_delivery_app.git'
             },
             {
               title: 'EHR – Electronic Health Record Web App',
               description: 'A full-stack medical records web application featuring frontend, backend, and database layers. I contributed to the frontend development and the integration between frontend and backend, ensuring a smooth and functional user experience for managing patient data.',
-              image: dpi,
+              image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788290/dpi_xozduh.svg",
               techStack: ['logos:angular-icon',
   'logos:typescript-icon',
   'logos:tailwindcss-icon',

@@ -25,42 +25,12 @@ import { Icon } from '@iconify/react';
 
 
 export default function AboutMe() {
-    const projects = [
-        {
-          title: '3D Solar System Planets to Explore',
-          description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-          image: beaver, // Update with the correct relative path to your image
-          techStack: ['logos:react', 'logos:tailwindcss-icon', 'logos:typescript-icon', 'logos:threejs'],
-          liveLink: '#'
-        },
-        // Add 3 more project objects to fill the 2x2 grid
-        {
-          title: 'Another Cool Project',
-          description: 'Brief description of another amazing project.',
-          image: foodieland,
-          techStack: ['logos:flutter', 'logos:nodejs-icon'],
-          liveLink: '#'
-        },
-        {
-          title: 'Beaver App',
-          description: 'Une application mobile de services de maintenance à domicile eco-respectueuse.',
-          image: foodninja,
-          techStack: ['logos:dart', 'logos:firebase'],
-          liveLink: '#'
-        },
-        {
-          title: 'Creative Portfolio',
-          description: 'A portfolio showcasing web design and frontend projects.',
-          image: dpi,
-          techStack: ['logos:html-5', 'logos:css-3', 'logos:javascript'],
-          liveLink: '#'
-        }
-      ];
+   
 
     const certificates = [
         {
             badgelink:'https://www.credly.com/badges/5077c127-63eb-4d70-b791-0c17a2cfb16b/public_url',
-          image: ciscoai,
+          image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788296/cisco_AI_ywrst6.svg",
           badge:ciscobadge,
           title: 'Cisco Networking Academy – AI Fundamentals',
           description: 'Certifies my foundational knowledge of AI concepts and applications through the Cisco–IBM AI Fundamentals course',
@@ -68,7 +38,7 @@ export default function AboutMe() {
         },
         {
             badgelink: 'https://www.credly.com/badges/19a2966e-87c0-4a49-9a62-6d8b80dee6e2/public_url',
-            image: ibmai,
+            image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788296/ibm_AI_rohwiy.svg",
             badge: ibmaibadge ,
             title: 'IBM – AI Fundamentals Certificate',
             description: 'Earned via IBM SkillsBuild, this certificate confirms my practical understanding of AI tools like Watson Studio, covering model training, data analysis, and ethical tech use.',
@@ -76,11 +46,19 @@ export default function AboutMe() {
           },
           {
             badgelink: 'https://www.credly.com/badges/ae14460e-b654-455e-bd2d-46932acf651e/public_url',
-            image: ibmreact,
+            image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788297/ibm_react_wxdvz1.svg",
             badge: reactbadge,
             title: 'Developing Front-End Apps with React',
             description: 'Credential earned through edX confirms my ability to develop responsive UIs using React, JavaScript, and modern front-end tools, following IBM’s industry standards.',
             link: 'https://courses.edx.org/certificates/a5cb5e2aedb441dea458957044672e96',
+          },
+          {
+            badgelink: '',
+            image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746885518/NVIDIA_deep_learning_qponj4.png",
+            badge: "",
+            title: 'NVIDIA - Getting started with Deep Learning',
+            description: 'Covered deep learning fundamentals, neural networks, model training, and deployment using TensorFlow, PyTorch, and NVIDIA GPU tools. Included hands-on practical labs',
+            link: 'https://learn.nvidia.com/certificates?id=uIjM2FsCTJ2OiPW6pwpVfw',
           },
       ];
       const isOdd = certificates.length % 2 !== 0;
@@ -240,8 +218,14 @@ export default function AboutMe() {
       {item.description}
     </p>
   </div>
-  <img src={item.badge} alt="Badge" className="w-20 h-20 mt-1" onClick={() => window.open(item.badgelink, '_blank')} />
-</div>
+{item.badge !== "" && (
+  <img
+    src={item.badge}
+    alt="Badge"
+    className="w-20 h-20 mt-1"
+    onClick={() => window.open(item.badgelink, '_blank')}
+  />
+)}</div>
 
     
     </a>

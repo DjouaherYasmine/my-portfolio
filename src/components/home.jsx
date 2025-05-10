@@ -28,12 +28,13 @@ export default function Home() {
           </BlurFade>
           <BlurFade>
           <a
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"
-    >
-      My resume <img src={arrow} alt="Arrow" className="w-2.5 h-2.5 mt-1" />
-    </a>
+  href="https://drive.google.com/file/d/1rjPiCnxUFtMQjq4g5iyoFLOouSdeOO_G/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"
+>
+  My resume <img src={arrow} alt="Arrow" className="w-2.5 h-2.5 mt-1" />
+</a>
     </BlurFade>
         </div>
 
