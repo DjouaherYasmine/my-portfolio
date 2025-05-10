@@ -13,7 +13,7 @@ export default function Home() {
     >
       <AnimatedGridPattern />
 
-      <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl">
+      <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl md:mt-20 sm:mt-20">
         {/* Left Side (Text) */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white">
