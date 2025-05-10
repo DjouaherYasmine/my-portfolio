@@ -13,7 +13,7 @@ export default function Home() {
     >
       <AnimatedGridPattern />
 
-      <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl md:mt-20 sm:mt-20">
+      <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl">
         {/* Left Side (Text) */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white">
@@ -28,7 +28,7 @@ export default function Home() {
           </BlurFade>
           <BlurFade>
           <a
-  href="https://drive.google.com/file/d/1rjPiCnxUFtMQjq4g5iyoFLOouSdeOO_G/view?usp=sharing"
+  href="https://drive.google.com/file/d/15U5quHl8N4OvAZqa-m68_thMyKJgCVVd/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"
@@ -39,12 +39,12 @@ export default function Home() {
         </div>
 
         {/* Right Side (Image) */}
-        <div className="md:w-1/2 flex justify-center mt-10 md:justify-end mb-10 md:mb-0">
+        <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0">
         <BlurFade>
         <img
             src="https://res.cloudinary.com/dzov9om6d/image/upload/v1746788324/profile_pic_zlqr51.svg"
             alt="Profile"
-            className="w-80 h-80 md:w-100 md:h-100 rounded-full object-cover"
+            className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover"
           />
         </BlurFade>
         </div>
