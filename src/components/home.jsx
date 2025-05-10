@@ -39,7 +39,7 @@ export default function Home() {
         </div>
 
         {/* Right Side (Image) */}
-        <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0">
+        <div className="md:w-1/2 flex justify-center md:justify-end mb-10 mt-20 md:mb-0 md:mt-0">
         <BlurFade>
         <img
             src="https://res.cloudinary.com/dzov9om6d/image/upload/v1746788324/profile_pic_zlqr51.svg"
