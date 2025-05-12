@@ -8,9 +8,10 @@ import arrow from "/arrow1.svg";
 export default function Home() {
   return (
     <section
-      id="home"
-      className="relative h-screen bg-[#000319] bg-no-repeat bg-center bg-cover flex items-center justify-center px-4 md:px-16"
-    >
+  id="home"
+  className="relative min-h-screen pt-24 bg-[#000319] bg-no-repeat bg-center bg-cover flex items-center justify-center px-4 md:px-16"
+>
+
       <AnimatedGridPattern />
 
       <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl">
@@ -39,7 +40,7 @@ export default function Home() {
         </div>
 
         {/* Right Side (Image) */}
-        <div className="md:w-1/2 flex justify-center md:justify-end mb-10 mt-20 md:mb-0 md:mt-0">
+        <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 md:mt-0">
         <BlurFade>
         <img
             src="https://res.cloudinary.com/dzov9om6d/image/upload/v1746788324/profile_pic_zlqr51.svg"
