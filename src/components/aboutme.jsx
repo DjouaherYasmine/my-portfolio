@@ -117,8 +117,9 @@ export default function AboutMe() {
         <div className="p-6 bg-[#0f0f23] rounded-3xl shadow-lg relative overflow-hidden mb-10">
         <ShineBorder />
           <p className="text-lg md:text-xl text-white leading-relaxed">
-          I'm a third-year Computer Science student passionate about solving real-world problems through technology. With hands-on experience in mobile and web development, event leadership, and community building, I thrive on creating impactful solutions. From leading national projects to designing user-friendly applications, my journey is driven by curiosity, creativity, and a desire to make a difference.
-          </p>
+  I'm a third-year Computer Science student passionate about solving problems through technology. With hands-on experience in mobile and web development, event leadership, and community building, I thrive on building impactful solutions. Lately, I’ve been expanding my skills in data science, exploring machine learning and analytical thinking as tools to drive smarter decision-making.
+</p>
+
           </div>
         </BlurFade>
 

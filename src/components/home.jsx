@@ -29,7 +29,7 @@ export default function Home() {
           </BlurFade>
           <BlurFade>
           <a
-  href="https://drive.google.com/file/d/15U5quHl8N4OvAZqa-m68_thMyKJgCVVd/view?usp=sharing"
+  href="https://drive.google.com/file/d/17jWgqi0BVE2tFa9jj5e3_B46y109qiMH/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"

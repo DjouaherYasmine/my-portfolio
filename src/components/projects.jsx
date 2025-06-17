@@ -9,6 +9,13 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 
 export default function projects() {
     const projects = [
+       {
+    title: 'NYC Taxi Fare Prediction',
+    description: 'A machine learning notebook analyzing NYC taxi rides using regression and classification models. It incorporates time, location, and weather features to improve prediction accuracy.',
+    image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1750095878/notebook_gcuwm0.png",
+    techStack: ['logos:python', 'logos:jupyter', 'devicon:scikitlearn', 'devicon:pandas', 'devicon:numpy'],
+    liveLink: 'https://www.kaggle.com/code/djouaheryasmine/nyc-taxi-fare-prediction'
+  },
             {
               title: 'Beaver – Artisan Services Mobile App',
               description: 'Beaver is a Flutter-based mobile app that connects customers with local artisans for home services. I worked on the frontend, integrated it with the backend, and implemented geolocation features to enable location-based service filtering. The app streamlines service requests, enhancing accessibility and convenience for users.',

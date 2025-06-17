@@ -33,6 +33,14 @@ const Footer = () => {
           >
             <Icon icon="mdi:certificate" width="24" height="24" />
           </a>
+          <a
+            href="https://www.kaggle.com/djouaheryasmine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-400 transition"
+          >
+            <Icon icon="fa-brands:kaggle" width="20" height="20" />
+          </a>
         </div>
       </div>
     </footer>

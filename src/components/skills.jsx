@@ -18,6 +18,11 @@ const skills = [
   { name: 'Figma', icon: 'logos:figma' },
   { name: 'Git', icon: 'logos:git-icon' },
   { name: 'GitHub', icon: 'mdi:github' },
+  {name: 'Jupyter NoteBook', icon: 'logos:jupyter'},
+  { name: 'Numpy', icon :'devicon:numpy'},
+  { name: 'Pandas', icon :'devicon:pandas'},
+  { name: 'Scikit-learn', icon: 'devicon:scikitlearn' },
+  { name: 'Kaggle', icon: 'devicon:kaggle' },
 ];
 
 
