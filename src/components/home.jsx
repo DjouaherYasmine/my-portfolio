@@ -24,7 +24,8 @@ export default function Home() {
           </h1>
           <BlurFade>
           <p className="text-lg md:text-lg text-white/80">
-          Hi, I’m Djouaher Yasmine, a Passionate Computer Science Student. I love to create and innovate, and I'm always eager to learn new things. My goal is to make a positive impact through technology.
+          Hi, I’m Djouaher Yasmine a CS student specializing in Data Science and AI.
+I turn data into intelligent solutions through machine learning, deep learning, and analytical thinking. Always learning, building, and innovating to create meaningful impact.
           </p>
           </BlurFade>
           <BlurFade>
@@ -43,7 +44,7 @@ export default function Home() {
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 md:mt-0">
         <BlurFade>
         <img
-            src="https://res.cloudinary.com/dzov9om6d/image/upload/v1746788324/profile_pic_zlqr51.svg"
+            src="https://res.cloudinary.com/dzov9om6d/image/upload/v1761307819/profile_pic_mu54r6.svg"
             alt="Profile"
             className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover"
           />

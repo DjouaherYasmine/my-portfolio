@@ -30,11 +30,27 @@ export default function AboutMe() {
     const certificates = [
         {
             badgelink:'https://www.credly.com/badges/5077c127-63eb-4d70-b791-0c17a2cfb16b/public_url',
-          image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788296/cisco_AI_ywrst6.svg",
-          badge:ciscobadge,
+          image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761302675/ciscoAI_fwcz8u.png",
+          badge: ciscobadge,
           title: 'Cisco Networking Academy – AI Fundamentals',
           description: 'Certifies my foundational knowledge of AI concepts and applications through the Cisco–IBM AI Fundamentals course',
           link: 'https://drive.google.com/file/d/12RaMMZPah6D-G9MbjDEnO5oCCnA6EebG/view?usp=sharing',
+        },
+        {
+            badgelink:'https://www.credly.com/badges/042c5e10-9416-4577-8ac6-2ddbbcb6d165/public_url',
+          image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761301280/ccna1_cqlbzi.png",
+          badge: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761301259/ccna-introduction-to-networks_x5votj.png",
+          title: 'Cisco CCNA1 – Introduction to Networks',
+          description: 'This certificate from Cisco Networking Academy validates my understanding of networking fundamentals, including network protocols, IP addressing, and basic network security concepts.',
+          link: 'https://drive.google.com/file/d/1R9UE1y6VevpjhSDZeBWl9uJtwaleyHpf/view?usp=sharing',
+        },
+        {
+            badgelink:'https://www.credly.com/badges/9a54ddb5-18c7-4734-8850-f1e757750335/public_url',
+          image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761302372/ccna2_lwuh2x.png",
+          badge: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761302357/ccna-switching-routing-and-wireless-essentials.1_oy3brw.png",
+          title: 'Cisco CCNA2 – Switching, Routing, and Wireless Essentials',
+          description: 'This credential from Cisco Networking Academy demonstrates my skills in configuring and managing network devices, implementing routing protocols, and ensuring wireless network security.',
+          link: 'https://drive.google.com/file/d/1HAztmBCnVKisyxS921GI0zryHzHV3PFL/view?usp=sharing',
         },
         {
             badgelink: 'https://www.credly.com/badges/19a2966e-87c0-4a49-9a62-6d8b80dee6e2/public_url',
@@ -64,6 +80,20 @@ export default function AboutMe() {
       const isOdd = certificates.length % 2 !== 0;
 
     const timelineData = [
+      {
+  date: "September 2025",
+role: "Intern",
+company: "Société Nationale d'Assurance SAA",
+details: [
+  "Analyzed the existing backup system and identified failure points",
+  "Researched and implemented best practices for data backup",
+  "Proposed a modernized backup architecture",
+  "Authored a technical report on the use of backup technologies in a data-oriented environment"
+],
+logo: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761306461/saaweb_pc93gx.svg",
+
+},
+
         {
           date: "September 2024",
           role: "Relev Department Assistant, CSE Club",
@@ -117,7 +147,8 @@ export default function AboutMe() {
         <div className="p-6 bg-[#0f0f23] rounded-3xl shadow-lg relative overflow-hidden mb-10">
         <ShineBorder />
           <p className="text-lg md:text-xl text-white leading-relaxed">
-  I'm a third-year Computer Science student passionate about solving problems through technology. With hands-on experience in mobile and web development, event leadership, and community building, I thrive on building impactful solutions. Lately, I’ve been expanding my skills in data science, exploring machine learning and analytical thinking as tools to drive smarter decision-making.
+            I’m a fourth-year Computer Science student passionate about solving problems through data-driven technology. With hands-on experience in mobile and web development, event leadership, and community building, I thrive on creating impactful solutions.
+Now specializing in Data Science and AI, I’m exploring machine learning, deep learning, and analytics to drive smarter decision-making and build intelligent systems.
 </p>
 
           </div>
