@@ -42,13 +42,13 @@ I turn data into intelligent solutions through machine learning, deep learning, 
 
         {/* Right Side (Image) */}
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 md:mt-0">
-        <BlurFade>
+       
         <img
             src="https://res.cloudinary.com/dzov9om6d/image/upload/v1761307819/profile_pic_mu54r6.svg"
             alt="Profile"
             className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover"
           />
-        </BlurFade>
+        
         </div>
       </div>
     </section>
