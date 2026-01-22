@@ -110,7 +110,7 @@ logo: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761306461/saaweb_pc93
           role: "Project Lead, CSE Around Algeria 2",
           details: [
             "Led national project expanding CSE community engagement across multiple wilayas",
-            "Orchestrated international workshop collaboration with USA partners",
+            "Orchestrated international workshop collaboration with USA partner",
             "Managed comprehensive event planning, partnership development, and logistics",
             "Scaled project impact through diverse student activities and community initiatives",
           ],

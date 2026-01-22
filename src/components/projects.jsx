@@ -9,7 +9,14 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 
 export default function projects() {
     const projects = [
-       {
+      {
+    title: 'Healthcare Visual Analytics Tool',
+    description: 'An interactive web dashboard analyzing 10,000+ healthcare records with D3.js visualizations and ArcGIS geospatial mapping. Features bar charts, box plots, heatmaps, and interactive hospital location maps.',
+    image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1769119523/map_dcu0gy.png",
+    techStack: ['logos:react', 'devicon:d3js', 'logos:tailwindcss-icon', 'logos:javascript', 'simple-icons:arcgis'],
+    liveLink: 'https://health-data-dashboard-ruddy.vercel.app/'
+  },       
+  {
     title: 'NYC Taxi Fare Prediction',
     description: 'A machine learning notebook analyzing NYC taxi rides using regression and classification models. It incorporates time, location, and weather features to improve prediction accuracy.',
     image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1750095878/notebook_gcuwm0.png",
