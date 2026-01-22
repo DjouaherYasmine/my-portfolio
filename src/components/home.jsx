@@ -30,7 +30,7 @@ I turn data into intelligent solutions through machine learning, deep learning, 
           </BlurFade>
           <BlurFade>
           <a
-  href="https://drive.google.com/file/d/1MpMnTAfx1Fg8RUPH-DvRIta3Ghe8XegR/view?usp=sharing"
+  href="https://drive.google.com/file/d/1_Niv4l1dPlzJPxhmbH71XGQLjlYmSuzQ/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"
