@@ -44,7 +44,6 @@ I turn data into intelligent solutions through machine learning, deep learning, 
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 md:mt-0">
         <BlurFade>
         <img
-            loading="eager"
             src={profileImg}
             alt="Profile"
             className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover"
