@@ -36,7 +36,7 @@ export default function projects() {
               description: 'Foodie Land is a frontend recipe website built with React, inspired by a Flowbase UI design. It features a responsive and visually appealing layout to showcase curated recipes. This project highlights my skills in component-based architecture, CSS styling, and UI integration using modern React practices.',
               image: "https://res.cloudinary.com/dzov9om6d/image/upload/v1746788302/foodieland_ltziuo.svg",
               techStack: ['logos:react', 'logos:javascript'],
-              liveLink: 'https://foodielandproject-git-master-djouaher-yasmines-projects.vercel.app'
+              liveLink: 'https://foodieland-pi.vercel.app/'
             },
             {
               title: 'Food Delivery App – Frontend mobile app',
