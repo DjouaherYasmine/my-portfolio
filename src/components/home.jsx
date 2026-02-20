@@ -45,9 +45,10 @@ I turn data into intelligent solutions through machine learning, deep learning, 
         <BlurFade>
         <img
             src={profileImg}
+            fetchpriority="high"
             loading="eager"
             alt="Profile"
-            className="w-60 h-60 md:w-100 md:h-100 rounded-full object-cover"
+            className="w-60 h-60 md:w-96 md:h-96 rounded-full object-cover"
           />
         </BlurFade>
         </div>
