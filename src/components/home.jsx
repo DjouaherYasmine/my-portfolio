@@ -5,70 +5,52 @@ import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern"
 import { AuroraText } from "@/components/magicui/aurora-text";
 import arrow from "/arrow1.svg";
 
-const ResumeButton = () => (
-  <a
-    href="https://drive.google.com/file/d/1N23kDK19v1HWrU3DGtjDwMlQAHMJOqlM/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Open resume in a new tab"
-    className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"
-  >
-    My resume <img src={arrow} alt="Arrow" className="w-2.5 h-2.5 mt-1" />
-  </a>
-);
-
-
-const ProfileImage = React.memo(function ProfileImage({ className = "" }) {
-  return (
-    <img
-      src={profileImg}
-      alt="Djouaher Yasmine profile"
-      width={384}
-      height={384}
-      loading="lazy"
-      decoding="async"
-      className={className}
-      style={{ aspectRatio: "1 / 1" }}
-    />
-  );
-});
-
 export default function Home() {
   return (
     <section
-      id="home"
-      className="relative min-h-screen pt-24 bg-[#000319] bg-no-repeat bg-center bg-cover flex items-center justify-center px-4 md:px-16"
-    >
+  id="home"
+  className="relative min-h-screen pt-24 bg-[#000319] bg-no-repeat bg-center bg-cover flex items-center justify-center px-4 md:px-16"
+>
+
       <AnimatedGridPattern />
 
       <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl">
         {/* Left Side (Text) */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white">
-            <BlurFade>
-              Shaping Ideas <AuroraText>into  Impactful Ideas</AuroraText>
-            </BlurFade>
+          <BlurFade>
+          Shaping Ideas <AuroraText>into  Impactful Ideas</AuroraText>
+          </BlurFade>
           </h1>
-
           <BlurFade>
-            <p className="text-lg md:text-lg text-white/80">
-              Hi, I’m Djouaher Yasmine a CS student specializing in Data Science and AI.
-              I turn data into intelligent solutions through machine learning, deep learning,
-              and analytical thinking. Always learning, building, and innovating to create
-              meaningful impact.
-            </p>
+          <p className="text-lg md:text-lg text-white/80">
+          Hi, I’m Djouaher Yasmine a CS student specializing in Data Science and AI.
+I turn data into intelligent solutions through machine learning, deep learning, and analytical thinking. Always learning, building, and innovating to create meaningful impact.
+          </p>
           </BlurFade>
-
           <BlurFade>
-            <ResumeButton />
-          </BlurFade>
+          <a
+  href="https://drive.google.com/file/d/1N23kDK19v1HWrU3DGtjDwMlQAHMJOqlM/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-br from-[#0f0f23] to-[#15162e] text-white text-md font-small border border-white/10 shadow-md hover:scale-105 transition-transform"
+>
+  My resume <img src={arrow} alt="Arrow" className="w-2.5 h-2.5 mt-1" />
+</a>
+    </BlurFade>
         </div>
 
         {/* Right Side (Image) */}
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 md:mt-0">
-          <BlurFade>
-            <ProfileImage className="w-60 h-60 md:w-96 md:h-96 rounded-full object-cover" />
-          </BlurFade>
+        <BlurFade>
+        <img
+            src={profileImg}
+            fetchpriority="high"
+            loading="eager"
+            alt="Profile"
+            className="w-60 h-60 md:w-96 md:h-96 rounded-full object-cover"
+          />
+        </BlurFade>
         </div>
       </div>
     </section>
