@@ -42,7 +42,7 @@ I turn data into intelligent solutions through machine learning, deep learning, 
 
         {/* Right Side (Image) */}
         <div className="md:w-1/2 flex justify-center md:justify-end mb-10 md:mb-0 md:mt-0">
-        <BlurFade>
+      
         <img
             src={profileImg}
             fetchpriority="high"
@@ -50,7 +50,7 @@ I turn data into intelligent solutions through machine learning, deep learning, 
             alt="Profile"
             className="w-60 h-60 md:w-96 md:h-96 rounded-full object-cover"
           />
-        </BlurFade>
+        
         </div>
       </div>
     </section>

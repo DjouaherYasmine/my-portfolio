@@ -106,7 +106,7 @@ logo: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761306461/saaweb_pc93
           logo: cselogo,
         },
         {
-          date: "Avril 2024",
+          date: "April 2024",
           role: "Project Lead, CSE Around Algeria 2",
           details: [
             "Led national project expanding CSE community engagement across multiple wilayas",
