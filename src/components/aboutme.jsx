@@ -20,6 +20,65 @@ import foodninja from "/foodninja.svg";
 import dpi from "/dpi.svg";
 import { Icon } from '@iconify/react';
 
+<style>{`
+  /* Ambient base glow */
+  .hero-glow {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 70% 20%, rgba(99,102,241,.12) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 35% at 10% 80%, rgba(167,139,250,.10) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 30% at 50% 50%, rgba(56,189,248,.08) 0%, transparent 70%);
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0; overflow: hidden; pointer-events: none;
+  }
+
+  /* Floating orbs */
+  .orb {
+    position: absolute; border-radius: 50%;
+    filter: blur(70px);
+    opacity: 0.8;
+    will-change: transform;
+  }
+
+  .orb-1 {
+    width: 320px; height: 320px;
+    background: rgba(99,102,241,.15);
+    top: -60px; right: 10%;
+    animation: float1 10s ease-in-out infinite;
+  }
+
+  .orb-2 {
+    width: 220px; height: 220px;
+    background: rgba(167,139,250,.12);
+    bottom: 10%; left: 5%;
+    animation: float2 12s ease-in-out infinite;
+  }
+
+  .orb-3 {
+    width: 160px; height: 160px;
+    background: rgba(56,189,248,.10);
+    top: 50%; right: 25%;
+    animation: float3 9s ease-in-out infinite;
+  }
+
+  /* NEW subtle orbs (for depth) */
+  .orb-4 {
+    width: 140px; height: 140px;
+    background: rgba(236,72,153,.08);
+    top: 20%; left: 20%;
+    animation: float2 14s ease-in-out infinite;
+  }
+
+  .orb-5 {
+    width: 180px; height: 180px;
+    background: rgba(34,197,94,.08);
+    bottom: 15%; right: 15%;
+    animation: float1 11s ease-in-out infinite;
+  }
+`}</style>
+
 
 
 
@@ -136,6 +195,15 @@ logo: "https://res.cloudinary.com/dzov9om6d/image/upload/v1761306461/saaweb_pc93
       id="about"
       className="relative py-24 px-4 md:px-16 bg-[#000319] text-white"
     >
+      <div className="hero-bg">
+          <div className="hero-grid" />
+          <div className="hero-glow" />
+          <div className="orb orb-2" />
+          <div className="orb orb-3" />
+          <div className="orb orb-4" />
+          <div className="orb orb-5" /> 
+          
+        </div>
       <div className="max-w-4xl mx-auto text-center space-y-6">
         <BlurFade>
           <h2 className="text-4xl md:text-4xl font-bold">
