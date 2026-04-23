@@ -73,7 +73,7 @@ const ContactSection = () => {
     setStatus('Sending...');
 
     emailjs
-      .sendForm('service_cgvlnap', 'template_fdg4ia7', form.current, 'tA7SPg_USOw6-DCl6')
+      .sendForm('service_4ax2xso', 'template_fdg4ia7', form.current, 'Ye8-TajXVKRfwnLFr')
       .then(
         () => {
           setStatus('Message sent successfully!');
