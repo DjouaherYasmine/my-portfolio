@@ -259,7 +259,7 @@ export default function Home() {
             {/* CTA */}
             <div className="reveal d4">
               <a
-                href="https://drive.google.com/file/d/1N23kDK19v1HWrU3DGtjDwMlQAHMJOqlM/view?usp=sharing"
+                href="https://drive.google.com/file/d/1rhLQy1e5rVBHFW5kr-7i9UP7x2Q0DCS4/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-btn"
