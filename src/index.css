@@ -5,6 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

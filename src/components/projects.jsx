@@ -92,7 +92,8 @@ export default function projects() {
     description: 'An interactive machine learning application predicting NYC taxi fares using XGBoost models for both regression and classification. Features real-time fare estimation, fare range prediction, and dynamic inputs leveraging temporal, spatial, weather, and demand-based features.',
     image: "/taxi_fare_prediction.png",
     techStack: ['logos:python', 'logos:jupyter', 'devicon:scikitlearn', 'devicon:pandas', 'devicon:numpy', 'logos:streamlit'],
-    liveLink: 'https://www.kaggle.com/code/djouaheryasmine/nyc-taxi-fare-prediction'
+    liveLink: 'https://taxifarepredictionmodel-zzxpfhbqkerndvzp9iefua.streamlit.app/',
+    githubLink: 'https://github.com/DjouaherYasmine/taxi_fare_prediction_model.git'
   },
   {
   title: 'Continual Learning on HAR Dataset',
@@ -150,9 +151,10 @@ export default function projects() {
           <div className="hero-grid" />
           <div className="hero-glow" />
           <div className="orb orb-2" />
-          <div className="orb orb-3" /> 
+          <div className="orb orb-3" />
           <div className="orb orb-4" />
-          <div className="orb orb-5" />
+          <div className="orb orb-5" /> 
+          
         </div>
     <div className="max-w-4xl mx-auto text-center space-y-6">
       <BlurFade>
