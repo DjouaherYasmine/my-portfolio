@@ -77,7 +77,7 @@ export default function projects() {
   'simple-icons:nvidia',
 ],
   liveLink: 'https://drive.google.com/file/d/1Lfai3KtGMl3cFwnXd7Q03BM4hQQDdWOU/view?usp=drive_link',
-  githubLink: 'https://github.com/selssabilkadid/hwnas-with-metaheuristics-project.git',
+  githubLink: 'https://github.com/selssabilkadid/cuda-shallow-nn-optimization.git',
 },
       {
     title: 'Toxic Comment Detection with BERT',
