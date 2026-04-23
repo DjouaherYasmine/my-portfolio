@@ -71,7 +71,7 @@ export default function projects() {
       {
   title: 'Memory-Centric Optimization for GPU Neural Network Training',
   description: 'A CUDA-based study of performance optimization strategies for shallow neural network training on GPUs. Explores shared-memory tiling, register-level computation, kernel fusion, and full GPU-resident training to eliminate CPU–GPU bottlenecks.',
-  image: "public/paper.png",
+  image: "/paper.png",
   techStack: [
   'logos:c-plusplus',
   'simple-icons:nvidia',
@@ -82,7 +82,7 @@ export default function projects() {
       {
     title: 'Toxic Comment Detection with BERT',
     description: 'An interactive NLP application for toxic comment detection using a fine-tuned BERT model. Features real-time text classification, confidence scoring, and a full-stack pipeline with FastAPI backend and Streamlit interface for live inference.',
-    image: "public/toxic_comment_model.png",
+    image: "/toxic_comment_model.png",
     techStack: ['logos:python', 'logos:pytorch-icon', 'logos:hugging-face-icon', 'logos:fastapi-icon', 'logos:streamlit'],
     liveLink: 'https://djouaheryasmine-toxic-comments-model-app-msrkyo.streamlit.app/',
     githubLink: 'https://github.com/DjouaherYasmine/toxic_comments_model.git'
@@ -90,14 +90,14 @@ export default function projects() {
   {
     title: 'NYC Taxi Fare Prediction',
     description: 'An interactive machine learning application predicting NYC taxi fares using XGBoost models for both regression and classification. Features real-time fare estimation, fare range prediction, and dynamic inputs leveraging temporal, spatial, weather, and demand-based features.',
-    image: "public/taxi_fare_prediction.png",
+    image: "/taxi_fare_prediction.png",
     techStack: ['logos:python', 'logos:jupyter', 'devicon:scikitlearn', 'devicon:pandas', 'devicon:numpy', 'logos:streamlit'],
     liveLink: 'https://www.kaggle.com/code/djouaheryasmine/nyc-taxi-fare-prediction'
   },
   {
   title: 'Continual Learning on HAR Dataset',
   description: 'A research project studying catastrophic forgetting in neural networks using the UCI HAR dataset. Compares Fine-tuning, Experience Replay, LwF, and EWC under sequential task learning with a shared MLP architecture.',
-  image: "public/continual-learning.png",
+  image: "/continual-learning.png",
   techStack: ['logos:python', 'devicon:pytorch', 'devicon:numpy', 'devicon:scikitlearn', 'simple-icons:jupyter'],
   liveLink: 'https://djouaheryasmine.github.io/Continual-Learning-UCI-HAR/',
   githubLink: 'https://github.com/DjouaherYasmine/Continual-Learning-UCI-HAR.git'
