@@ -103,7 +103,7 @@ const ContactSection = () => {
       
         <h2 className="text-4xl md:text-4xl font-bold  mb-6 text-center">
         
-            <AuroraText>Description</AuroraText>
+            <AuroraText>Contact me</AuroraText>
         </h2>
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
           <input
